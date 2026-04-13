@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sivannarayan Origanti | DevOps Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body {background:#0f172a;color:white;scroll-behavior:smooth;}
+
+nav {
+  position:fixed;width:100%;top:0;
+  background:#020617;
+  display:flex;justify-content:center;
+  padding:15px;z-index:1000;
+}
+nav a {
+  color:white;margin:0 15px;text-decoration:none;
+  font-weight:500;transition:0.3s;
+}
+nav a:hover {color:#38bdf8;}
+
+section {
+  padding:100px 20px;
+  text-align:center;
+}
+
+.hero {
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background:linear-gradient(135deg,#020617,#0f172a);
+}
+
+.hero h1 {
+  font-size:3rem;
+}
+.hero span {
+  color:#38bdf8;
+}
+
+.btn {
+  margin-top:20px;
+  padding:10px 20px;
+  border:none;
+  background:#38bdf8;
+  color:black;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.skills span {
+  display:inline-block;
+  margin:10px;
+  padding:10px 15px;
+  background:#1e293b;
+  border-radius:20px;
+  transition:0.3s;
+}
+.skills span:hover {
+  background:#38bdf8;
+  color:black;
+}
+
+.projects {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.card {
+  background:#1e293b;
+  margin:15px;
+  padding:20px;
+  width:260px;
+  border-radius:10px;
+  transition:0.3s;
+}
+.card:hover {
+  transform:translateY(-10px);
+  background:#334155;
+}
+
+footer {
+  background:#020617;
+  padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+<h1>Hi, I'm <span>Sivannarayan</span></h1>
+<p>AWS Cloud & DevOps Engineer</p>
+<p>4+ Years | Kubernetes | Terraform | CI/CD</p>
+<a href="#contact"><button class="btn">Contact Me</button></a>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+AWS Cloud & DevOps Engineer with 4+ years of experience in building scalable, secure, 
+and automated cloud environments. Skilled in Kubernetes, Terraform, Jenkins, and DevSecOps.
+</p>
+</section>
+
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<span>AWS</span>
+<span>Kubernetes</span>
+<span>Docker</span>
+<span>Terraform</span>
+<span>Jenkins</span>
+<span>CloudFormation</span>
+<span>Prometheus</span>
+<span>Grafana</span>
+<span>DevSecOps</span>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>CI/CD Pipeline</h3>
+<p>Automated deployments using Jenkins, Docker & Kubernetes with rollback strategy.</p>
+</div>
+
+<div class="card">
+<h3>EKS Deployment</h3>
+<p>Production-ready Kubernetes cluster with RBAC, HPA & monitoring.</p>
+</div>
+
+<div class="card">
+<h3>Terraform Infra</h3>
+<p>Automated AWS infrastructure with reusable modules and remote state.</p>
+</div>
+
+<div class="card">
+<h3>Cost Optimization</h3>
+<p>Reduced AWS cost using Savings Plans and rightsizing techniques.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: origantisivannarayana@gmail.com</p>
+<p>Phone: +91 8096497276</p>
+<p>Bangalore, India</p>
+</section>
+
+<footer>
+<p>© 2026 Sivannarayan Origanti</p>
+</footer>
+
+</body>
+</html>
